@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: #ECE2D6;
+    padding: 20px;
+    border-bottom: 3px solid #ddd;
+}
+#Titulo{
+    position: relative;
+    top: 10px;
+    left: 3%;
+    height: 10rem;
+}
+#altofalante{
+    position: relative;
+    top: -120px;
+    left: 40%;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-container {
+    flex: 1;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.highlight {
+    color: #e26a45;
+    font-weight: bold;
+}
+
+.subtitles {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.subtitle {
+    color: #555;
+}
+
+.edition {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #888;
+}
+
+/* Newsletter */
+.newsletter {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.top-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top-section h1 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.top-section p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.top-section span {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.blocks {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.block {
+    background-color: #f9f9f9;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 10px;
+    width: 48%;
+    text-align: center;
+}
+
+.block img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.block h2 {
+    font-size: 1rem;
+    color: #333;
+}
+
+.block span {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+/* Footer */
+.footer-bar {
+    background-color: #ff5000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+.footer-info {
+    background-color: #f5f5f5;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.footer-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .blocks {
+        flex-direction: column;
+    }
+
+    .block {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .newsletter {
+        padding: 15px;
+    }
+}
